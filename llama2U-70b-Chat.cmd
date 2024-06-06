@@ -1,0 +1,1 @@
+ollama run llama2-uncensored:70b-chat
