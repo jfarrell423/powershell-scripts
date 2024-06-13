@@ -23,7 +23,7 @@ List of Scripts
 2) Add Powershell Script to Set Ollama Process
    to run as high priority using powershell.
 3) Set Execution Policies.
-4) Adding Sample OLLAMA LLM Scripts for coammand line
+4) Adding Sample OLLAMA LLM Scripts for command line
 5) Added GH-GEI script to create a migration script for an organization.
    
    a) Needs a couple of Personal access tokens for each site (required)
