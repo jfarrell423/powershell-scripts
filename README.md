@@ -3,6 +3,7 @@
 
  Note that you may need to set your execution policy as follows 
  Set-ExecutionPolicy RemoteSigned
+ 
  You will need to run you powershell terminal as administrator
 
 #################################################################
@@ -32,5 +33,10 @@ List of Scripts
 7) Added GH-GEI script to migrate a single repository
    
    a) This script has the same requirements as #5
+
+8) Added GH-CLI Repository Deletion Script
+
+   a) You need a personal access token with delete privelages
+
    
    
