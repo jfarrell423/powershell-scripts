@@ -24,9 +24,12 @@ List of Scripts
 3) Set Execution Policies.
 4) Adding Sample OLLAMA LLM Scripts for coammand line
 5) Added GH-GEI script to create a migration script for an organization.
+   
    a) Needs a couple of Personal access tokens for each site (required)
    b) Needs a AZURE connection string for storage space (required)
-6) Added GH-GEI script to migrate a single repository
+   
+7) Added GH-GEI script to migrate a single repository
+   
    a) This script has the same requirements as #5
    
    
