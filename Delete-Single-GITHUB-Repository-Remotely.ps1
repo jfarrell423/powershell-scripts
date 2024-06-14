@@ -1,8 +1,10 @@
 #############################################################################
 # PowerShell GITHUB Deletion Script Using Environment Variables
 # This is safer than hard coding the Personal Access Token into the script
+#
 # Usage:
-# .\delete-github-repo.ps1 -repositoryName "REPO_NAME"
+# .\Delete-Single-GITHUB-Repository.ps1 -repositoryName "REPO_NAME"
+#
 # This is using the GITHUB Rest API for server access.
 #############################################################################
 param (
@@ -11,7 +13,9 @@ param (
 )
 
 # Fetch the GitHub username and personal access token from environment variables
+# This Environment Variable can be a user name or organization name
 $githubUsername = $env:GITHUB_USERNAME
+# This personal access token has to be given delete privs
 $personalAccessToken = $env:GITHUB_PERSONAL_ACCESS_TOKEN
 
 if (-not $githubUsername -or -not $personalAccessToken) {
