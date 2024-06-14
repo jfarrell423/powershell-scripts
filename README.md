@@ -36,6 +36,12 @@ List of Scripts
 
 8) Added GH-CLI Repository Deletion Script
 
+9) Added GH-CLI Deletion Script that uses Env Variables
+
+   a) Set up the Env Variables in System Settings
+
+
+
    a) You need a personal access token with delete privelages
 
    
