@@ -4,8 +4,18 @@
 
  Note that you may need to set your execution policy as follows 
  Set-ExecutionPolicy RemoteSigned
+
+ or
+
+ Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
  
  You will need to run you powershell terminal as administrator
+
+ You will need to install PowerShellForGitHub
+
+ From a PowerShell Terminal Enter:
+
+ Import-Module PowerShellForGitHub
 
 #################################################################
 
