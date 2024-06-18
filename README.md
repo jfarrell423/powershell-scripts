@@ -1,4 +1,5 @@
 #################################################################
+
 # powershell-scripts-repo
 
  Note that you may need to set your execution policy as follows 
@@ -11,6 +12,16 @@
 You can go here to learn more about execution policies for 7.4:
 
 https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4
+
+#################################################################
+
+For some of the scripts you will need to install GH CLI
+
+https://github.com/cli/cli
+
+For some of the scripts you will need to install GH-GEI
+
+https://github.com/github/gh-gei
 
 #################################################################
 
@@ -41,6 +52,12 @@ List of Scripts
 9) Added GH-CLI Deletion Script that uses Env Variables
 
    a) Set up the Env Variables in System Settings
+
+10) Added Set-Repo-Internal-Example.ps1
+
+11) Added Set-Collab-GITHUB-Repository-Remotely-Example.ps1
+
+
 
 
 
