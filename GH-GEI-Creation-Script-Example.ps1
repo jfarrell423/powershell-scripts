@@ -4,17 +4,22 @@
 
 #Author Jerry Farrell
 #Team   UTK OIT Apps
-
+########################################################################
 # Source Location Environment Variables Session Specific
+########################################################################
+# This Token is used by PowerShell for GitHub Enterprise Authentication
 $env:GH_SOURCE_PAT       = "<Source Personal Access Token>"
+# Used by GitHub CLI for GitHub Enterprise Authentication
 $env:GH_ENTERPRISE_TOKEN = "<Source Personal Access Token>"
-
+# This Token is used by PowerShell to Authenticate GitHub.com
 $env:GH_PAT              = "<Target Personal Access Token>"
+# This is you private Guthub Enterprise Server URL
 $env:GH_HOST             = "Original Host Server URL"
-
+########################################################################
 The scripts require Azure Storage to Migrate from Enterprise to github.com
 $env:AZURE_STORAGE_CONNECTION_STRING = "<Connection String for Azure Storage>"
 
 # Exporting is not needed in PowerShell as setting them is enough for accessing throughout the current session.
 
 gh gei generate-script --github-source-org <Source Organization> --github-target-org <Target Organization> --output <Name of Script File to be created .ps1 extension> --ghes-api-url https://github.utk.edu/api/v3
+
